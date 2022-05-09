@@ -1,7 +1,6 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { GroupStateInitial } from "../../../models/group";
 import { fetchCreateGroup, fetchDeleteGroup, fetchEditGroup } from "./thunkfunctionsgroup";
-
 
 export const groupsReducer = createSlice({
     name: 'groups',
