@@ -30,10 +30,13 @@ const styles = StyleSheet.create({
     container: {
         marginBottom: 5,
         flexDirection: 'row',
+        backgroundColor:'yellow',
+        justifyContent:'center',
+        alignContent:'center',
+        alignItems:'center'
     },
     containerCheck:{
         flex:1,
-        padding: 6
     },
     text: {
         fontSize: 15,
@@ -45,11 +48,15 @@ const styles = StyleSheet.create({
         color: '#a3a3a3'
     },
     checkBox: {
-        backgroundColor: 'green',
-        textDecorationLine: 'none'
+        backgroundColor: 'red',
+        textDecorationLine: 'none',
+        justifyContent:"center",
+        alignItems:'center',
+        
     },
     checkBoxIcon: {
-        borderRadius: 0
+        borderRadius: 0,
+        justifyContent:'center',
     },
     containerText: {
         justifyContent:'center',
